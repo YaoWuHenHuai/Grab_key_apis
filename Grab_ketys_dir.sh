@@ -9,7 +9,7 @@ cd "$original_dir"
 source_dir="/var/www/veljos.com/login/display/apis/db_apis/inbound/"
 wk_file="/var/www/veljos.com/login/display/apis/db_apis/wk_file.txt"
 cd "$source_dir"
-ls > "$wk_file"
+ls -althr > "$wk_file"
 ##here will only read a file at a time , 
 count=0
 while IFW= read -r line
